@@ -1,6 +1,6 @@
 
 <div align = "center">
-  <img width = "120" src = "https://hefesto.uea.edu.br/gitlab/sthe/teste/-/raw/master/app/logo/logo.png">
+  <img width = "120" src = "https://user-images.githubusercontent.com/51168329/156935527-fd419369-917d-4391-80ca-d16706b0e7a3.png">
   <h1>Projeto SIM Card</h1>
   <h4>Time 06</h4>
 </div>
