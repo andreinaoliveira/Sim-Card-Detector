@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".historico"
+    android:background="@drawable/background_clean">
+
+
+    <TextView
+        android:id="@+id/title_historico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Histórico"
+        android:textColor="#FDFCFC"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imgBack2"
+        android:layout_width="414dp"
+        android:layout_height="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/round_corners" />
+
+    <ImageView
+        android:id="@+id/btHome2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imgBack2"
+        app:layout_constraintTop_toTopOf="@+id/imgBack2"
+        app:layout_constraintVertical_bias="0.55"
+        app:srcCompat="@drawable/ic_baseline_home_24"/>
+
+    <ImageView
+        android:id="@+id/btHistory2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btTips2"
+        app:layout_constraintStart_toEndOf="@+id/btHome2"
+        app:layout_constraintTop_toTopOf="@+id/imgBack2"
+        app:layout_constraintVertical_bias="0.55"
+        app:srcCompat="@drawable/ic_baseline_history_edu_24"
+        app:tint="@color/white"/>
+
+    <ImageView
+        android:id="@+id/btTips2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imgBack2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btHistory2"
+        app:layout_constraintTop_toTopOf="@+id/imgBack2"
+        app:layout_constraintVertical_bias="0.55"
+        app:srcCompat="@drawable/ic_round_privacy_tip_24"/>
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="381dp"
+        android:layout_height="547dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/background_historico"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_historico">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/historicotxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sem dados hitóricos"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

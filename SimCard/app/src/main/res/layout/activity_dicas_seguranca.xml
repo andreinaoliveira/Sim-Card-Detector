@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DicasSeguranca"
+    android:background="@drawable/background_clean">
+
+
+    <TextView
+        android:id="@+id/dica_texto2"
+        android:layout_width="322dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Não informe códigos recebidos por SMS para terceiros."
+        app:layout_constraintStart_toEndOf="@+id/dica2"
+        app:layout_constraintTop_toBottomOf="@+id/dica_texto1" />
+
+    <TextView
+        android:id="@+id/title_dicas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Dicas de Segurança"
+        android:textColor="#FDFDFD"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/dica1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="1"
+        android:textColor="#073FB7"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dica_texto1" />
+
+    <TextView
+        android:id="@+id/dica2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="2"
+        android:textColor="#073FB7"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dica_texto2" />
+
+    <TextView
+        android:id="@+id/dica_texto1"
+        android:layout_width="322dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:text="Não informe seus dados pessoais à desconhecidos por SMS ou ligação. A menos que possua certeza de estar falando com uma empresa segura ou alguém de confiança."
+        app:layout_constraintStart_toEndOf="@+id/dica1"
+        app:layout_constraintTop_toBottomOf="@+id/title_dicas" />
+
+    <ImageView
+        android:id="@+id/imgBack2"
+        android:layout_width="414dp"
+        android:layout_height="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dica_texto2"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/round_corners" />
+
+    <ImageView
+        android:id="@+id/btHome3"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imgBack2"
+        app:layout_constraintTop_toTopOf="@+id/imgBack2"
+        app:layout_constraintVertical_bias="0.55"
+        app:srcCompat="@drawable/ic_baseline_home_24"/>
+
+    <ImageView
+        android:id="@+id/btHistory3"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btTips3"
+        app:layout_constraintStart_toEndOf="@+id/btHome3"
+        app:layout_constraintTop_toTopOf="@+id/imgBack2"
+        app:layout_constraintVertical_bias="0.55"
+        app:srcCompat="@drawable/ic_baseline_history_edu_24"/>
+
+    <ImageView
+        android:id="@+id/btTips3"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:itemIconTint="@color/icons_color"
+        app:itemRippleColor="@color/white"
+        app:itemTextColor="@color/icons_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imgBack2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btHistory3"
+        app:layout_constraintTop_toTopOf="@+id/imgBack2"
+        app:layout_constraintVertical_bias="0.55"
+        app:srcCompat="@drawable/ic_round_privacy_tip_24"
+        app:tint="@color/white"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

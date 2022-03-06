@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_home"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/SerialSIM"
+        android:layout_width="332dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.113" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="138dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="104dp"
+        android:text="@string/info_sim"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.351"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="@string/details"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iccid"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textonumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="@string/number"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/textoperadtor"
+        app:layout_constraintTop_toTopOf="@+id/textoperadtor" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="número"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/textonumero"
+        app:layout_constraintTop_toBottomOf="@+id/textonumero" />
+
+    <TextView
+        android:id="@+id/texticcid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/iccid"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/operator"
+        app:layout_constraintTop_toBottomOf="@+id/operator" />
+
+    <TextView
+        android:id="@+id/iccid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="iccid"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/texticcid"
+        app:layout_constraintTop_toBottomOf="@+id/texticcid" />
+
+    <TextView
+        android:id="@+id/textoperadtor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/operator"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/operator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="operadora"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/textoperadtor"
+        app:layout_constraintTop_toBottomOf="@+id/textoperadtor" />
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="414dp"
+        android:layout_height="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SerialSIM"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/round_corners" />
+
+    <ImageView
+        android:id="@+id/btHome1"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imgBack"
+        app:layout_constraintTop_toTopOf="@+id/imgBack"
+        app:layout_constraintVertical_bias="0.55"
+        app:srcCompat="@drawable/ic_baseline_home_24"
+        app:tint="@color/white"/>
+
+    <ImageView
+        android:id="@+id/btHistory1"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btTips1"
+        app:layout_constraintStart_toEndOf="@+id/btHome1"
+        app:layout_constraintTop_toTopOf="@+id/imgBack"
+        app:layout_constraintVertical_bias="0.55"
+        app:srcCompat="@drawable/ic_baseline_history_edu_24"/>
+
+    <ImageView
+        android:id="@+id/btTips1"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imgBack"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btHistory1"
+        app:layout_constraintTop_toTopOf="@+id/imgBack"
+        app:layout_constraintVertical_bias="0.567"
+        app:srcCompat="@drawable/ic_round_privacy_tip_24"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

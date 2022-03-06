@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Sim Card</string>
+    <string name="info_sim">Sim Card</string>
+    <string name="details">Detalhes do Sim Card Atual:</string>
+
+    <string name="number">Número: </string>
+    <string name="iccid">ICCID: </string>
+    <string name="operator">Operadora: </string>
+    <string name="home">Início</string>
+    <string name="historic">Histórico</string>
+    <string name="tips">Dicas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
