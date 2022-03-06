@@ -13,11 +13,11 @@
 
 <div align = "center">
     <p align ="center">
-    <a href="#-objetivo">Objetivo</a> 📍
-    <a href="#-funcionalidades">Funcionalidades</a> 📍 
-    <a href="#-tecnologias">Tecnologias</a> 📍 
-    <a href="#%EF%B8%8F-desenvolvimento">Desenvolvimento</a> 📍 
-    <a href="#-time">Time</a> 📍 
+    <a href="#-objetivo">📍 Objetivo</a>
+    <a href="#-funcionalidades">📍 Funcionalidades</a>
+    <a href="#-tecnologias">📍 Tecnologias</a>
+    <a href="#%EF%B8%8F-desenvolvimento">📍 Desenvolvimento</a>
+    <a href="#-time">📍 Time</a>
     </p>
 </div>
 
