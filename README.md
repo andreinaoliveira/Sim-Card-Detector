@@ -20,7 +20,7 @@
     <a href="#%EF%B8%8F-desenvolvimento">Desenvolvimento</a> 📍 
     <a href="#-time">Time</a> 📍 
     </p>
-    <img src = "https://hefesto.uea.edu.br/gitlab/sthe/teste/-/raw/master/app/telas.jpeg">
+    <img src = "https://user-images.githubusercontent.com/51168329/156935831-9975de71-4d94-4036-a627-5b3986d974d3.png">
 </div>
 
 
@@ -56,15 +56,14 @@ As seguintes tecnologias foram usadas na construção do projeto:
 
 <table>
   <tr>
-    <td align="center"><img style="border-radius: 50%;" src="https://lh3.googleusercontent.com/a-/AOh14GjVEIwfhVq-igDfYS2EHINPMn52TXN-dNVoukBN=s80-p-k-rw-no" width="100px;" alt=""/><br /><sub><b>Andreina Oliveira</b></sub></a></br><br>Scrum Master</br></td>
-    <td align="center"><img style="border-radius: 50%;" src="https://hefesto.uea.edu.br/gitlab/sthe/teste/-/raw/master/time/andre.jpeg" width="100px;" alt=""/><br /><sub><b>Andre Rondi</b></sub></a></br><br>Developer</br></td>
-    <td align="center"><img style="border-radius: 50%;" src="https://hefesto.uea.edu.br/gitlab/sthe/teste/-/raw/master/time/edivaldo.jpeg" width="100px;" alt=""/><br /><sub><b>Edivaldo Oscar</b></sub></a></br><br>Developer</br></td>
-    <td align="center"><img style="border-radius: 50%;" src="https://hefesto.uea.edu.br/gitlab/sthe/teste/-/raw/master/time/sthefanye.jpeg" width="100px;" alt=""/><br /><sub><b>Sthefanye Guimarães</b></sub></a></br><br>Developer</br></td>
-    <td align="center"><img style="border-radius: 50%;" src="https://hefesto.uea.edu.br/gitlab/sthe/teste/-/raw/master/time/wesllen.jpeg" width="100px;" alt=""/><br /><sub><b>Wesllen Vasconcelos</b></sub></a></br><br>Developer</br></td>
+    <td align="center"><br><img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/51168329/156936028-4e2f4b91-c5ee-40a8-9c62-c3d227add69c.png" width="100px;" alt=""/><br /><sub><b>Andreina Oliveira</b></sub></a><br>Scrum Master<br>Developer</td>
+    <td align="center"><img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/51168329/156935899-87bd49c9-6927-4ba2-a357-02e687444134.png" width="100px;" alt=""/><br /><sub><b>Andre Rondi</b></sub></a><br>Developer</td>
+    <td align="center"><img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/51168329/156935924-8456ffcc-665e-477a-816e-6349cc6269df.png" width="100px;" alt=""/><br /><sub><b>Sthefanye Guimarães</b></sub></a><br>Developer</td>
+    <td align="center"><img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/51168329/156935974-5bf52532-3c0a-475f-80b8-fcd24f868062.png" width="100px;" alt=""/><br /><sub><b>Wesllen Vasconcelos</b></sub></a><br>Developer</td>
   </tr>
 </table>
 <div>
-
+  
   <h5> <a href="#top">Volte ao topo</a> </h5>
 
 </div>
