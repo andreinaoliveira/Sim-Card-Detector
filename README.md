@@ -1,12 +1,20 @@
+
 <div align = "center">
   <img width = "120" src = "https://user-images.githubusercontent.com/51168329/156935527-fd419369-917d-4391-80ca-d16706b0e7a3.png">
-  <h1>Projeto SIM Card</h1>
-  <h4>Time 06</h4>
+  <h1>SIM Card Detector</h1>
+  <div align="center">
+  <a href="https://github.com/andreinaoliveira/Sim-Card-Detector"><img alt="hits" src="https://hits.sh/github.com/andreinaoliveira/Sim-Card-Detector.svg"/></a>
+  <a href="https://github.com/andreinaoliveira/Sim-Card-Detector/graphs/commit-activity"><img src="https://img.shields.io/github/last-commit/andreinaoliveira/Sim-Card-Detector"></a>
+  <a href="https://github.com/andreinaoliveira/Sim-Card-Detector"><img src="https://img.shields.io/badge/status-complete-light"></a>
+  <a href="https://github.com/andreinaoliveira/Sim-Card-Detector/stargazers"><img src="https://img.shields.io/github/stars/andreinaoliveira/Sim-Card-Detector?style=social"></a>
+  <a href="https://github.com/andreinaoliveira/Sim-Card-Detector/network/members"><img src="https://img.shields.io/github/forks/andreinaoliveira/Sim-Card-Detector?style=social"></a>
+  <a href="https://github.com/andreinaoliveira"><img src="https://img.shields.io/github/followers/andreinaoliveira?style=social"></a>
+</div>
 </div>
 
 ##
 <div align = "center">
-  <h5> Mecanismo de segurança do SIM Card na camada do AOSP </h5> 
+  <h5>Time 06: Mecanismo de segurança do SIM Card na camada do AOSP </h5> 
 </div>
 
 ##
